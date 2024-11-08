@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Fredoka One', cursive; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(178, 34, 34, 0.8); 
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    background-image: url('fundo.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px; 
+}
+
+.start-button, .about-button {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #ff4500; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; 
+    font-family: 'Fredoka One', cursive; 
+}
+
+.start-button:hover, .about-button:hover {
+    background-color: #dc143c; 
+    transform: scale(1.1); 
+}
